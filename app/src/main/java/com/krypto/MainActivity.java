@@ -1,4 +1,4 @@
-package com.cryptosasa;
+package com.krypto;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

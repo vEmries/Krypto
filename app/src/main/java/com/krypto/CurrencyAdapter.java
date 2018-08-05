@@ -1,4 +1,4 @@
-package com.cryptosasa;
+package com.krypto;
 
 import android.content.Context;
 import android.content.Intent;
@@ -78,7 +78,7 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.MyView
         holder.title.setText(currency.getName() + " 0.00");
         card_count = 0;
 
-        // Inicjowana na starcie menu_main, pobiera wartości dla wybranych kart
+        // Inicjowana na starcie menu_main, pobiera kursy wybranych walut
         Runnable runnable = new Runnable() {
             public void run() {
                     loadPrimaryHandler.post(new Runnable(){

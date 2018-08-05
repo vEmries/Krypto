@@ -1,8 +1,5 @@
-package com.cryptosasa;
+package com.krypto;
 
-/**
- * Created by Levit Nudi on 14/10/17.
- */
 public class Currency {
     private String name;
     private String symbol;

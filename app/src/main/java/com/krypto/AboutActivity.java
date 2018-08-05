@@ -1,4 +1,4 @@
-package com.cryptosasa;
+package com.krypto;
 
 import android.content.Intent;
 import android.os.Bundle;
