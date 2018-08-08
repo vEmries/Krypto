@@ -18,7 +18,8 @@
         android:paddingLeft="20dp"
         android:text="@string/w_main_hint_title"
         android:textColor="@color/colorAccent"
-        android:textSize="29sp" />
+        android:textSize="29sp"
+        android:textAlignment="center" />
 	
     <TextView
         android:id="@+id/TVFirstTimeText"

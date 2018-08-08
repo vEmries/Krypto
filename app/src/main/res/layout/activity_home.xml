@@ -60,7 +60,7 @@
                             android:background="@drawable/radio_button_left"
                             android:button="@android:color/transparent"
                             android:checked="true"
-                            android:text="Bitcoin (BTC)"
+                            android:text="@string/btc_button_text"
                             android:textColor="#ffffff" />
 
                         <RadioButton
@@ -69,7 +69,7 @@
                             android:layout_height="wrap_content"
                             android:background="@drawable/radio_button_right"
                             android:button="@android:color/transparent"
-                            android:text="Ethereum (ETH)"
+                            android:text="@string/eth_button_text"
                             android:textColor="#ffffff" />
                     </RadioGroup>
 
@@ -90,8 +90,6 @@
                             android:background="@drawable/edit_view" />
                            <!-- android:theme="?android:attr/borderlessButtonStyle"-->
 
-
-
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -107,13 +105,12 @@
 
                         <Button
                             android:id="@+id/add_button"
-                            android:text="Add"
-                            android:textColor="@android:color/white"
                             android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
                             android:background="@drawable/edit_view_btn"
-                            android:layout_height="wrap_content" />
+                            android:text="@string/add_button_text"
+                            android:textColor="@android:color/white" />
                     </RelativeLayout>
-
 
                 </RelativeLayout>
             </RelativeLayout>
@@ -129,34 +126,9 @@
 
     </android.support.design.widget.AppBarLayout>
 
-
     <include layout="@layout/content_home"
         android:id="@+id/include" />
 
-<!--    <TextView
-        android:id="@+id/empty_view"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:text="@string/empty_view"
-        android:textAlignment="center"
-        android:gravity="center_vertical"
-        android:textSize="20dp"
-        android:textColor="@color/divider"
-        android:layout_alignBottom="@+id/include"
-        android:layout_alignParentTop="true"
-        android:layout_below="@+id/include"/>-->
-
-
-
-   <!-- <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/ic_add"
-        app:layout_anchor="@+id/appbar"
-        app:layout_anchorGravity="bottom|center_horizontal" />-->
 </android.support.design.widget.CoordinatorLayout>
 
     <ViewStub
@@ -166,7 +138,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
         android:layout_marginBottom="35dp" />
-
 
     <FrameLayout
         android:id="@+id/LNavigationBar"

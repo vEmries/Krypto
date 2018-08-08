@@ -30,11 +30,11 @@
             android:layout_weight="0.36">
 
             <ImageView
-                android:id="@+id/crypto_sasa_logo"
+                android:id="@+id/krypto_logo"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:adjustViewBounds="true"
-                android:src="@drawable/cryptosasa_logo" />
+                android:src="@drawable/krypto_logo" />
 
         </LinearLayout>
 

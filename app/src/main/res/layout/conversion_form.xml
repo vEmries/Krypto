@@ -36,24 +36,22 @@
             android:orientation="vertical"
             android:paddingTop="30dp">
 
-                <EditText
-                    android:id="@+id/quote_currency_conversion"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:singleLine="true"
-                    android:text="loading..."
-                    android:textColor="@color/secondary_text"
-                    android:textAlignment="center"
-                    android:enabled="false"
-                    android:background="@drawable/no_edit_view"
-                    android:focusable="false"/>
-
+            <EditText
+                android:id="@+id/quote_currency_conversion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/no_edit_view"
+                android:enabled="false"
+                android:focusable="false"
+                android:singleLine="true"
+                android:text="wczytuję..."
+                android:textAlignment="center"
+                android:textColor="@color/secondary_text" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-
 
                 <EditText
                     android:id="@+id/base_currency_conversion"
@@ -64,7 +62,6 @@
                     android:textAlignment="center"
                     android:background="@drawable/text_views"
                     android:inputType="numberDecimal" />
-
 
             </android.support.design.widget.TextInputLayout>
 

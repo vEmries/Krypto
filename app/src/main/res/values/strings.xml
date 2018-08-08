@@ -1,19 +1,21 @@
 <resources>
-    <!--Tekst dla elementów-->
+    <!--Tekst dla buttonów-->
     <string name="action_goto_conversion">Konwersja</string>
     <string name="action_remove_item">Usuń</string>
     <string name="gotit_button_text">Ok</string>
     <string name="back_button_text">Powrót</string>
     <string name="add_button_text">Dodaj</string>
+    <string name="btc_button_text">Bitcoin (BTC)</string>
+    <string name="eth_button_text">Ethereum (ETH)</string>
 
     <!--MainActivity-->
     <string name="app_name">Krypto</string>
     <string name="action_about">O aplikacji</string>
     <string name="shared_pref_crypto">CryptoCompare</string>
     <string name="empty_view">Brak wybranych walut, dodaj \'+\' ...</string>
-    <string name="w_main_hint_title">Porady</string>
     <string name="w_main_welcome">Witaj</string>
 
+    <string name="w_main_hint_title">Szybki start</string>
     <string name="w_quick_tips">
         1. Wybierz rodzaj kryptowaluty (BTC/ETH).\n\n
 	    2. Wybierz walutę z rozwijanego menu (np. PLN, EUR).\n\n

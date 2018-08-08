@@ -238,7 +238,7 @@ public class CurrencyAdapter extends RecyclerView.Adapter<CurrencyAdapter.MyView
                     editor.putInt("List_size", count);
                     editor.commit();
 
-                    Toast.makeText(mContext, "Deleted!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mContext, "Usunięto!", Toast.LENGTH_SHORT).show();
 
                     return true;
                 default:
