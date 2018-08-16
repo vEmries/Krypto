@@ -5,6 +5,7 @@
         <shape>
             <corners android:topRightRadius="@dimen/activity_horizontal_margin" android:bottomRightRadius="@dimen/activity_horizontal_margin" />
             <solid android:color="@color/colorAccent" />
+            <stroke android:width="2dp" android:color="@color/simple_white" />
             <padding android:bottom="@dimen/activity_horizontal_margin" android:left="@dimen/activity_horizontal_margin" android:right="@dimen/activity_horizontal_margin" android:top="@dimen/activity_horizontal_margin" />
         </shape>
     </item>
@@ -12,7 +13,7 @@
     <item android:state_pressed="true">
         <shape>
             <corners android:topRightRadius="@dimen/activity_horizontal_margin" android:bottomRightRadius="@dimen/activity_horizontal_margin" />
-            <solid android:color="#00000000" />
+            <solid android:color="@color/button_selecting" />
             <stroke android:width="2dp" android:color="@color/colorAccent" />
             <padding android:bottom="@dimen/activity_horizontal_margin" android:left="@dimen/activity_horizontal_margin" android:right="@dimen/activity_horizontal_margin" android:top="@dimen/activity_horizontal_margin" />
         </shape>

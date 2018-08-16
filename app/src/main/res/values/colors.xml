@@ -12,4 +12,6 @@
     <color name="currency_title">#4c4c4c</color>
     <color name="text_red">#ff0000</color>
     <color name="text_green">#006400</color>
+    <color name="button_selecting">#7c7b7b</color>
+    <color name="simple_white">#FFFFFF</color>
 </resources>

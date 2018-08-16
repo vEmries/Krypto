@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         // Tło -> poprawić bo się rozjeżdża
         ImageView img_cover = (ImageView) findViewById(R.id.backdrop);
         try {
-            Glide.with(this).load(R.drawable.money_mkt).into(img_cover);
+            Glide.with(this).load(R.drawable.main_bg).into(img_cover);
         } catch (Exception e) {}
     }
 
