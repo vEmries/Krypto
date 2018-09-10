@@ -292,8 +292,8 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         int size = sharedPref.getInt("List_size", 0);
 
         for(int i=0;i<size;i++) {
-          if(sharedPref.getString("List_"+i, null).split("#")[2].contains(String.valueOf(thumbnail))
-                  && sharedPref.getString("List_"+i, null).split("#")[0].contains(quote_currency)){
+          if(sharedPref.getString("List_" + i, null).split("#")[2].contains(String.valueOf(thumbnail))
+                  && sharedPref.getString("List_" + i, null).split("#")[0].contains(quote_currency)){
            checked = true;
           }
         }
